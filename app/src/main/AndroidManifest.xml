@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NotesWithCouchbase">
-        <activity android:name=".NoteOpen"></activity>
+        <activity android:name=".NoteOpen" />
         <activity android:name=".New_Note_Activity" />
         <activity android:name=".NotesListActivity">
             <intent-filter>

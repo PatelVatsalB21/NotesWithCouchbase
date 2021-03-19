@@ -4,14 +4,13 @@ import android.content.Context
 import com.couchbase.lite.*
 
 class DBOperator private constructor(
-    private val context: Context?,
     val dbManager: DBManager
 ) {
 
     companion object {
 
         fun getInstance(context: Context?): DBOperator =
-            DBOperator(context, DBManager.getInstance(context))
+            DBOperator(DBManager.getInstance(context))
     }
 
     private fun getDatabase(): Database? {

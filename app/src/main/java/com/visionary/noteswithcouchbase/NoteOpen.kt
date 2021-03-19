@@ -63,6 +63,4 @@ class NoteOpen : AppCompatActivity() {
             }
         }
     }
-
-
 }

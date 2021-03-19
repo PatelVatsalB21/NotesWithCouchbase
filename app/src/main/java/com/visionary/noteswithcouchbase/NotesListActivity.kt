@@ -2,14 +2,12 @@ package com.visionary.noteswithcouchbase
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import butterknife.BindView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class NotesListActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener {
@@ -33,7 +31,7 @@ class NotesListActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListe
         setUpUI()
     }
 
-    fun setUpUI() {
+    private fun setUpUI() {
         fabNewNote = findViewById(R.id.fab_new_note)
         rvNotes = findViewById(R.id.rv_notes)
         swipeLayout = findViewById(R.id.swipe_layout)
@@ -60,7 +58,8 @@ class NotesListActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListe
             })
 
         fabNewNote?.setOnClickListener { _ ->
-            View.OnClickListener {startActivity(Intent(this, New_Note_Activity::class.java))
+            View.OnClickListener {
+                startActivity(Intent(this, New_Note_Activity::class.java))
             }
         }
     }
