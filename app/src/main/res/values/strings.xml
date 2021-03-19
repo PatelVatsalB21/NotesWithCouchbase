@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notes with Couchbase</string>
+    <string name="title_NewNote">Title</string>
+    <string name="body_NewNote">Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="new_note">New Note</string>
+</resources>
