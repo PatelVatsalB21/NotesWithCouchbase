@@ -1,4 +1,4 @@
-package com.visionary.noteswithcouchbase
+package com.visionary.noteswithcouchbase.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,9 @@ import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.Toast
 import butterknife.BindView
+import com.visionary.noteswithcouchbase.Data.DBOperator
+import com.visionary.noteswithcouchbase.R
+import com.visionary.noteswithcouchbase.Utils.Note
 
 class New_Note_Activity : AppCompatActivity() {
 

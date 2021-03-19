@@ -1,4 +1,4 @@
-package com.visionary.noteswithcouchbase
+package com.visionary.noteswithcouchbase.Activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +9,10 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.visionary.noteswithcouchbase.Data.DBOperator
+import com.visionary.noteswithcouchbase.Adapter.NoteListAdapter
+import com.visionary.noteswithcouchbase.R
+import com.visionary.noteswithcouchbase.Utils.Note
 
 class NotesListActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener {
 

@@ -1,4 +1,4 @@
-package com.visionary.noteswithcouchbase
+package com.visionary.noteswithcouchbase.Utils
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

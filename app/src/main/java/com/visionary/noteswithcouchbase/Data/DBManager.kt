@@ -1,8 +1,9 @@
-package com.visionary.noteswithcouchbase
+package com.visionary.noteswithcouchbase.Data
 
 import android.content.Context
 import android.os.Environment
 import com.couchbase.lite.*
+import com.visionary.noteswithcouchbase.Utils.DB_NAME
 
 class DBManager private constructor(private val context: Context?) {
 

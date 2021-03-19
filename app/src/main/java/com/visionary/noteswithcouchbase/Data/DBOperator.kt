@@ -1,7 +1,10 @@
-package com.visionary.noteswithcouchbase
+package com.visionary.noteswithcouchbase.Data
 
 import android.content.Context
 import com.couchbase.lite.*
+import com.visionary.noteswithcouchbase.Utils.Note
+import com.visionary.noteswithcouchbase.Utils.serializeToMap
+import com.visionary.noteswithcouchbase.Utils.toDataClass
 
 class DBOperator private constructor(
     val dbManager: DBManager

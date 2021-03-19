@@ -1,4 +1,4 @@
-package com.visionary.noteswithcouchbase
+package com.visionary.noteswithcouchbase.Adapter
 
 import android.content.Context
 import android.content.Intent
@@ -10,6 +10,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import butterknife.BindView
 import butterknife.ButterKnife
+import com.visionary.noteswithcouchbase.Activities.NoteOpen
+import com.visionary.noteswithcouchbase.R
+import com.visionary.noteswithcouchbase.Utils.Note
 
 class NoteListAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

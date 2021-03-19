@@ -1,4 +1,4 @@
-package com.visionary.noteswithcouchbase
+package com.visionary.noteswithcouchbase.Utils
 
 class Note {
     var id: String = ""
