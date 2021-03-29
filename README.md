@@ -1,5 +1,5 @@
 # NotesWithCouchbase
-Note taking app with offline integration of Couchbase Lite
+Note📝 taking app with offline integration of Couchbase Lite
 
 ### Introduction
 **NotesWithCouchbase** is a simple note taking app that is made for demonstration and learning of how [Couchbase Lite](https://docs.couchbase.com/couchbase-lite/2.7/java-android.html) works for offline data storage and sync with Android and Kotlin.
